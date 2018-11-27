@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PPT Web Application</title>
+    <link rel="stylesheet" type="text/css" href="ppt.css">
+
+</head>
+
+<body>
+
+    <div id = "textEditor">
+        <div id = "toolbar">
+
+<button  id =  "textbutton" name = "text"  >Add Text </button>
+<input type = "file"  id =  "fileuploader" multiple>
+        </div>
+        
+        <div id = "formattingbar">
+<button id = "boldbutton" title = "Bold"> <b>B</b></button>
+<button id = "italicButton" title = "Italic"> <em>I</em></button>
+<button id = "underlineButton" title = "Underline"><u>U</u></button>
+<button id = "strikeButton" title = "Strikethrough"><s>abc</s></button>
+<button id = "undoButton" title = "Undo previous action ">&larr;</button>
+<button id = "redoButton" title = "Redo"> &rarr;</button>
+
+<label>Font Name</label>
+<select id = "fontChanger">
+<option value = "Times New Roman"> Times New Roman</option>
+<option value = "Cursive"> Cursive</option>
+</select>
+
+<label> Font Size</label>
+        <select id = "fontsizeChanger"> 
+        <option value = "5"> 5</option>
+         <option value = "20"> 20</option>
+        </select>
+<br>
+<br>
+<br>
+        </div>   
+        <div  id = "richTextArea"  >
+        </div>
+    </div>
+    <script type="text/javascript" src="dist/main.js"></script>
+   
+</body>
+</html>
